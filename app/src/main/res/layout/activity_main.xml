@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral0"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTxt"
+        android:layout_width="238dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="410dp"
+        android:fontFamily="casual"
+        android:text="@string/click_number"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/plusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_below="@+id/minusButton"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="-273dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="449dp"
+        android:background="@color/material_dynamic_neutral0"
+        android:backgroundTintMode="add"
+        android:contentDescription="@string/click_me"
+        android:rotationX="28"
+        android:scaleType="centerInside"
+        android:src="@drawable/img"
+        android:text="@string/click_me"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/minusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="449dp"
+        android:background="@color/material_dynamic_neutral0"
+        android:contentDescription="@string/dontclick_me"
+        android:rotationX="28"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_1"
+        android:text="@string/dontclick_me"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</RelativeLayout>

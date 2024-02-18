@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clicerr</string>
+    <string name="click_number">Кликов 0 раз</string>
+    <string name="click_me">НАЖМИ МЕНЯ</string>
+    <string name="dontclick_me">НЕ НАЖИМАЙ МЕНЯ</string>
+    <string name="drop">СБРОСИТЬ СЧЁТ</string>
+</resources>
